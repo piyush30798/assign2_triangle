@@ -39,7 +39,7 @@ namespace assignment2_tri
             }
             else
             {
-                triType = "Invalid input. Triangle cant be formed.";
+                triType = "Triangles sides should be greater than 0.";
             }
 
             return triType;
