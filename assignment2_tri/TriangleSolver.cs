@@ -15,8 +15,10 @@ namespace assignment2_tri
 
             if(x>0 && y>0 && z>0)
             {
+               
                 if ((x + y) > z && (y + z) > x && (z + x) > y)
                 {
+                   
                     if ((x == y) && (y == z))
                     {
                         triType = "Equilateral Triangle";
